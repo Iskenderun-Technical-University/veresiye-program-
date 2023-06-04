@@ -25,19 +25,25 @@ namespace veresiye_defteri_v1._1
             if (textBox_password.Text == textBox_again_password.Text)
             {
                 connection.Open();
-                SqlCommand komut = new SqlCommand("insert into tbl_kullanıcı(name,user_password)values(@name,@password)", connection);
+                SqlCommand komut = new SqlCommand("insert into tbl_kullanıcı(name,user_password,authority)values(@name,@password,@authority)", connection);
                 komut.Parameters.AddWithValue("@name", textBox_name.Text);
                 komut.Parameters.AddWithValue("@password", textBox_password.Text);
+                komut.Parameters.AddWithValue("@authority", comboBox_authority.Text);
                 komut.ExecuteNonQuery();
                 textBox_name.Clear();
                 textBox_password.Clear();
                 textBox_again_password.Clear();
+                comboBox_authority.Text = "";
                 MessageBox.Show("BAŞARI İLE KAYDEDİLMİŞTİR");
                 connection.Close();
             }
             else
                 MessageBox.Show("GİRİLEN ŞİFRELER EŞLEŞMİYOR");
         }
-        
+
+        private void Form_user_add_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -51,9 +51,9 @@
             // tableLayoutPanel1
             // 
             tableLayoutPanel1.ColumnCount = 3;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 150F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 105F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 60.9939766F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 39.0060234F));
             tableLayoutPanel1.Controls.Add(panel_left, 0, 0);
             tableLayoutPanel1.Controls.Add(panel_info_screen, 2, 0);
             tableLayoutPanel1.Controls.Add(dataGridView_users, 1, 0);
@@ -71,13 +71,13 @@
             panel_left.Dock = DockStyle.Fill;
             panel_left.Location = new Point(3, 3);
             panel_left.Name = "panel_left";
-            panel_left.Size = new Size(144, 432);
+            panel_left.Size = new Size(99, 432);
             panel_left.TabIndex = 0;
             // 
             // button_f5
             // 
             button_f5.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button_f5.Location = new Point(27, 9);
+            button_f5.Location = new Point(9, 9);
             button_f5.Name = "button_f5";
             button_f5.Size = new Size(83, 41);
             button_f5.TabIndex = 0;
@@ -97,15 +97,15 @@
             panel_info_screen.Controls.Add(label1);
             panel_info_screen.Controls.Add(textBox_name);
             panel_info_screen.Dock = DockStyle.Fill;
-            panel_info_screen.Location = new Point(462, 3);
+            panel_info_screen.Location = new Point(513, 3);
             panel_info_screen.Name = "panel_info_screen";
-            panel_info_screen.Size = new Size(304, 432);
+            panel_info_screen.Size = new Size(253, 432);
             panel_info_screen.TabIndex = 2;
             // 
             // button_user_add
             // 
             button_user_add.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            button_user_add.Location = new Point(191, 318);
+            button_user_add.Location = new Point(140, 318);
             button_user_add.Name = "button_user_add";
             button_user_add.Size = new Size(104, 50);
             button_user_add.TabIndex = 0;
@@ -116,7 +116,7 @@
             // button_user_save
             // 
             button_user_save.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            button_user_save.Location = new Point(212, 133);
+            button_user_save.Location = new Point(161, 133);
             button_user_save.Name = "button_user_save";
             button_user_save.Size = new Size(83, 41);
             button_user_save.TabIndex = 1;
@@ -127,7 +127,7 @@
             // button_user_del
             // 
             button_user_del.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            button_user_del.Location = new Point(212, 180);
+            button_user_del.Location = new Point(161, 180);
             button_user_del.Name = "button_user_del";
             button_user_del.Size = new Size(83, 41);
             button_user_del.TabIndex = 2;
@@ -140,7 +140,7 @@
             label3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(25, 92);
+            label3.Location = new Point(6, 94);
             label3.Name = "label3";
             label3.Size = new Size(90, 25);
             label3.TabIndex = 5;
@@ -149,9 +149,9 @@
             // textBox_password
             // 
             textBox_password.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            textBox_password.Location = new Point(121, 94);
+            textBox_password.Location = new Point(107, 94);
             textBox_password.Name = "textBox_password";
-            textBox_password.Size = new Size(174, 23);
+            textBox_password.Size = new Size(137, 23);
             textBox_password.TabIndex = 4;
             // 
             // label2
@@ -159,7 +159,7 @@
             label2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(25, 63);
+            label2.Location = new Point(6, 63);
             label2.Name = "label2";
             label2.Size = new Size(58, 25);
             label2.TabIndex = 3;
@@ -169,9 +169,9 @@
             // 
             textBox_user_code.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             textBox_user_code.Enabled = false;
-            textBox_user_code.Location = new Point(198, 36);
+            textBox_user_code.Location = new Point(175, 36);
             textBox_user_code.Name = "textBox_user_code";
-            textBox_user_code.Size = new Size(97, 23);
+            textBox_user_code.Size = new Size(69, 23);
             textBox_user_code.TabIndex = 2;
             // 
             // label1
@@ -179,7 +179,7 @@
             label1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(25, 34);
+            label1.Location = new Point(6, 34);
             label1.Name = "label1";
             label1.Size = new Size(167, 25);
             label1.TabIndex = 1;
@@ -188,21 +188,22 @@
             // textBox_name
             // 
             textBox_name.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            textBox_name.Location = new Point(89, 65);
+            textBox_name.Location = new Point(70, 65);
             textBox_name.Name = "textBox_name";
-            textBox_name.Size = new Size(206, 23);
+            textBox_name.Size = new Size(174, 23);
             textBox_name.TabIndex = 0;
             // 
             // dataGridView_users
             // 
             dataGridView_users.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView_users.Dock = DockStyle.Fill;
-            dataGridView_users.Location = new Point(153, 3);
+            dataGridView_users.Location = new Point(108, 3);
             dataGridView_users.Name = "dataGridView_users";
             dataGridView_users.RowTemplate.Height = 25;
-            dataGridView_users.Size = new Size(303, 432);
+            dataGridView_users.Size = new Size(399, 432);
             dataGridView_users.TabIndex = 3;
             dataGridView_users.CellClick += dataGridView_users_CellClick;
+            dataGridView_users.CellEnter += dataGridView_users_CellEnter;
             // 
             // Form_user_process
             // 

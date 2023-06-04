@@ -26,3 +26,4 @@ C:\Users\ahmet\source\repos\veresiye_defteri_v1.1\veresiye_defteri_v1.1\obj\Debu
 C:\Users\ahmet\source\repos\veresiye_defteri_v1.1\veresiye_defteri_v1.1\obj\Debug\net6.0-windows\ref\veresiye_defteri_v1.1.dll
 C:\Users\ahmet\source\repos\veresiye_defteri_v1.1\veresiye_defteri_v1.1\obj\Debug\net6.0-windows\veresiye_defteri_v1._1.Form_user_process.resources
 C:\Users\ahmet\source\repos\veresiye_defteri_v1.1\veresiye_defteri_v1.1\obj\Debug\net6.0-windows\veresiye_defteri_v1._1.Form_user_add.resources
+C:\Users\ahmet\source\repos\veresiye_defteri_v1.1\veresiye_defteri_v1.1\obj\Debug\net6.0-windows\veresiye_defteri_v1._1.Form_add_process.resources

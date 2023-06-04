@@ -62,8 +62,8 @@ namespace veresiye_defteri_v1._1
         private void button_user_del_Click(object sender, EventArgs e)
         {
             DialogResult yesno;
-            yesno = MessageBox.Show("KULLANICI SİLİNSİN Mİ?", "DİKKAT", MessageBoxButtons.YesNo,MessageBoxIcon.Information);
-            if(yesno == DialogResult.Yes) 
+            yesno = MessageBox.Show("KULLANICI SİLİNSİN Mİ?", "DİKKAT", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            if (yesno == DialogResult.Yes)
             {
                 connection.Open();
                 SqlCommand komut = new SqlCommand("delete from tbl_kullanıcı where ID='" + int.Parse(dataGridView_users.CurrentRow.Cells[0].Value.ToString()) + "'", connection);
@@ -77,6 +77,13 @@ namespace veresiye_defteri_v1._1
         private void dataGridView_users_CellClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void dataGridView_users_CellEnter(object sender, DataGridViewCellEventArgs e)
+        {
+            textBox_user_code.Text = dataGridView_users.CurrentRow.Cells[0].Value.ToString();
+            textBox_name.Text = dataGridView_users.CurrentRow.Cells[2].Value.ToString();
+            textBox_password.Text = dataGridView_users.CurrentRow.Cells[1].Value.ToString();
         }
     }
 }
